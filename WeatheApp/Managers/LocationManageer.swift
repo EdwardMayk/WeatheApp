@@ -6,6 +6,7 @@
 //
 
 import Foundation
+<<<<<<< HEAD
 import CoreLocation
 
 class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
@@ -34,3 +35,5 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
         isLoading = false
     }
 }
+=======
+>>>>>>> 5140365ac9a79791cc9f90549449dcad0c144e9f

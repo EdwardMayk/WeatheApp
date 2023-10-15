@@ -6,6 +6,7 @@
 //
 
 import Foundation
+<<<<<<< HEAD
 import SwiftUI
 
 extension Double {
@@ -30,3 +31,5 @@ struct RoundedCorner: Shape {
         return Path(path.cgPath)
     }
 }
+=======
+>>>>>>> 5140365ac9a79791cc9f90549449dcad0c144e9f

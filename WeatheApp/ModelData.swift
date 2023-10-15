@@ -6,6 +6,7 @@
 //
 
 import Foundation
+<<<<<<< HEAD
 
 var previewWeather: ResponseBody = load("weatherDate.json")
 
@@ -30,3 +31,5 @@ func load<T: Decodable>(_ filename: String) -> T{
         fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
     }
 }
+=======
+>>>>>>> 5140365ac9a79791cc9f90549449dcad0c144e9f

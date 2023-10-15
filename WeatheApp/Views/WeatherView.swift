@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct WeatherView: View {
+<<<<<<< HEAD
     var weather: ResponseBody
     
     var body: some View {
@@ -92,11 +93,19 @@ struct WeatherView: View {
             .preferredColorScheme(.dark)
 
         
+=======
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+>>>>>>> 5140365ac9a79791cc9f90549449dcad0c144e9f
     }
 }
 
 struct WeatherView_Previews: PreviewProvider {
     static var previews: some View {
+<<<<<<< HEAD
         WeatherView(weather: previewWeather)
+=======
+        WeatherView()
+>>>>>>> 5140365ac9a79791cc9f90549449dcad0c144e9f
     }
 }

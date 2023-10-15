@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+<<<<<<< HEAD
 import CoreLocationUI
 
 struct WelcomeView: View {
@@ -33,6 +34,12 @@ struct WelcomeView: View {
             
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
+=======
+
+struct WelcomeView: View {
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+>>>>>>> 5140365ac9a79791cc9f90549449dcad0c144e9f
     }
 }
 

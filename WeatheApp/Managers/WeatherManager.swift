@@ -6,6 +6,7 @@
 //
 
 import Foundation
+<<<<<<< HEAD
 import CoreLocation
 
 class WeaterManager{
@@ -68,3 +69,5 @@ extension ResponseBody.MainResponse{
     var tempMin: Double { return temp_min }
     var tempMax: Double { return temp_max }
 }
+=======
+>>>>>>> 5140365ac9a79791cc9f90549449dcad0c144e9f

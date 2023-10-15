@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct WeatherRow: View {
+<<<<<<< HEAD
     
     var logo: String
     var name: String
@@ -29,11 +30,19 @@ struct WeatherRow: View {
                     .font(.title)
             }
         }
+=======
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+>>>>>>> 5140365ac9a79791cc9f90549449dcad0c144e9f
     }
 }
 
 struct WeatherRow_Previews: PreviewProvider {
     static var previews: some View {
+<<<<<<< HEAD
         WeatherRow(logo: "thermometer", name: "Feels like", value: "8°")
+=======
+        WeatherRow()
+>>>>>>> 5140365ac9a79791cc9f90549449dcad0c144e9f
     }
 }

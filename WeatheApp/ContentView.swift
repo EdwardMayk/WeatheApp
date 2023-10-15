@@ -13,6 +13,7 @@ struct ContentView: View {
     @State var weather: ResponseBody?
     
     var body: some View {
+<<<<<<< HEAD
         VStack{
             
             if let location = locationManager.location{
@@ -37,6 +38,10 @@ struct ContentView: View {
                             .environmentObject(locationManager)
                     }
                 }
+=======
+        VStack {
+            Text("Hello, world!")
+>>>>>>> 5140365ac9a79791cc9f90549449dcad0c144e9f
         }
         .background(.blue)
         .preferredColorScheme(.dark)
